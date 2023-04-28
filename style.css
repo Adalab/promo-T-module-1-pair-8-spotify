@@ -1,13 +1,15 @@
 
 
 .cajaazul{
-    height: 40px;
-    background-color: blue;
-    
-
+    height: 100px;
+    background-color: rgb(24, 30, 209);
 }
 
-.Logo{
+.title1, .title2, .title3, .title4, .title5{
+ }
+
+
+ .Logo{
     height:10px;
     width:10px;
 }
