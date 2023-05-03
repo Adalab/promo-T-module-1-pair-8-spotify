@@ -1,12 +1,8 @@
-.caja-azul {
 
-    border: solid black;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
+
+.cajaazul{
     height: min-content;
-   
-    
+    background-color: rgb(24, 30, 209);
 }
 
 .title {
@@ -20,5 +16,32 @@
 }
 
 
+.cajablanca{
+    border:solid black;
+    
+}
 
+.tituloblanco{
+    font-size: 40px;
+    text-align: center;
+    }
 
+.cuadrado1,.cuadrado2,.cuadrado3,.cuadrado4{
+    border:solid black;
+    width:100%;
+   }
+
+.seccion1,.seccion2{
+    display:flex;
+     }
+
+     .titles{
+        font-size: 18px;
+        font-weight:bolder
+
+     }
+
+     .logospequeños{
+        height:60px;
+       
+       }
