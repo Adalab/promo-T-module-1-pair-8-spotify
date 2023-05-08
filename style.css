@@ -10,12 +10,32 @@ html{
 }
 .cajaazul{
     height: min-content;
-    background-color: rgb(24, 30, 209);
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    
 }
 
 .title1, .title2, .title3, .title4, .title5{
+    color: white;
+    font-weight: bold;
+    
  }
 
+ .caja1{
+    align-content: flex-start;
+    align-items: flex-start
+ }
+
+h1 {
+    font-size: 70px;
+}
+
+ h2{
+    font-size: 23px;
+ }
 
 .Logo{
     height:1rem;
@@ -61,11 +81,8 @@ width: 100%;
 
 .p1{
 font-weight:bolder;
-
 }
 
-.p2{
-}
 
 .logospequeños{
 height:7rem;
