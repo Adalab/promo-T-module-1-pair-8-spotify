@@ -1,41 +1,25 @@
 
-*{
+
+:root{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    font-family: roboto;
 }
 
 html{
     font-size: 62,5%;
 }
 .cajaazul{
-    height: min-content;
-    background-color: blue;
-    padding: 10px;
+    
+    border: solid;
+    background-color: #529cf1;
     display: flex;
     flex-direction: column;
-
-    
-}
-
-.title1, .title2, .title3, .title4, .title5{
     color: white;
-    font-weight: bold;
     
- }
-
- .caja1{
-    align-content: flex-start;
-    align-items: flex-start
- }
-
-h1 {
-    font-size: 70px;
 }
 
- h2{
-    font-size: 23px;
- }
 
 .Logo{
     height:1rem;
@@ -90,3 +74,13 @@ width:7rem;
 float:left;
 
 }
+.seccion1,.seccion2{
+display:flex;
+}
+
+.titles{
+  font-size: 18px;
+   font-weight:bolder
+}
+
+
