@@ -1,3 +1,5 @@
+
+
 :root{
     margin: 0;
     padding: 0;
@@ -5,6 +7,9 @@
     font-family: roboto;
 }
 
+html{
+    font-size: 62,5%;
+}
 .cajaazul{
     
     border: solid;
@@ -17,27 +22,59 @@
 }
 
 
- .Logo{
-    height:10px;
-    width:10px;
+.Logo{
+    height:1rem;
+    width:1rem;
+}
+.cajablanca {
+
+width: 100%;
 }
 
-
-.cajablanca{
-    border:solid black;
-    
-}
-
-.tituloblanco{
-    font-size: 40px;
+.tituloblanco {
+    font-size: 4rem;
     text-align: center;
+    padding:3rem;
     }
 
+
+
+
 .cuadrado1,.cuadrado2,.cuadrado3,.cuadrado4{
-    border:solid black;
+    
+    display:inline-block;
     width:100%;
+    height:min-content;
+    padding:2rem 15rem;
+    
+    }
+
+
+.contenedorcajas{
+      display:inline-block;
+      width: 100%;
+      
+    }
+
+   p{
+    text-align:center;
+    padding-top: 1rem;
+    
    }
 
+
+
+.p1{
+font-weight:bolder;
+}
+
+
+.logospequeños{
+height:7rem;
+width:7rem;
+float:left;
+
+}
 .seccion1,.seccion2{
 display:flex;
 }
@@ -47,7 +84,4 @@ display:flex;
    font-weight:bolder
 }
 
-.logospequeños{
-height:60px;
-  
-  }
+
