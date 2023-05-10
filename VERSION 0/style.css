@@ -10,17 +10,36 @@
 html{
     font-size: 62,5%;
 }
+
+
+
 .cajaazul{
     
     border: solid;
     background-color: #529cf1;
+    color: white;
     display: flex;
     flex-direction: column;
-    color: white;
+   
+
     
     
 }
 
+.h1{
+    font-size: 50px;
+    
+}
+
+.escucha{
+    font-size: 20px;
+    display: flex;
+    
+    
+
+
+
+}
 
 .Logo{
     height:1rem;
