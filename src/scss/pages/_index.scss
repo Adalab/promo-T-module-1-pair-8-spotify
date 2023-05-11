@@ -1,0 +1,104 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+html{
+  font-size: 62,5%;
+}
+
+
+
+.cajaazul{
+  
+  border: solid;
+  background-color: #529cf1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+ 
+
+  
+  
+}
+
+.h1{
+  font-size: 50px;
+  
+}
+
+.escucha{
+  font-size: 20px;
+  display: flex;
+  
+  
+
+
+
+}
+
+.Logo{
+  height:1rem;
+  width:1rem;
+}
+.cajablanca {
+
+width: 100%;
+}
+
+.tituloblanco {
+  font-size: 4rem;
+  text-align: center;
+  padding:3rem;
+  }
+
+
+
+
+.cuadrado1,.cuadrado2,.cuadrado3,.cuadrado4{
+  
+  display:inline-block;
+  width:100%;
+  height:min-content;
+  padding:2rem 15rem;
+  
+  }
+
+
+.contenedorcajas{
+    display:inline-block;
+    width: 100%;
+    
+  }
+
+ p{
+  text-align:center;
+  padding-top: 1rem;
+  
+ }
+
+
+
+.p1{
+font-weight:bolder;
+}
+
+
+.logospequeños{
+height:7rem;
+width:7rem;
+float:left;
+
+}
+.seccion1,.seccion2{
+display:flex;
+}
+
+.titles{
+font-size: 18px;
+ font-weight:bolder
+}
+
+
